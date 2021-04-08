@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="Cadastro.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estiloCad.css">
+    <script src="etsilo.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">Bem vindo ao cadastro</div>
+        <form action="#">
+            <div class="usuario">
+                <div class="entrada_dados">
+                    <span class="dados">Nome:</span>
+                    <input type="text" id="nomeid" placeholder="Nome e sobrenome" required="required" name="nome"/>
+                <div class="entrada_dados">
+                    <span class="dados">CPF:</span>
+                    <input type="text" id="cpfid" placeholder="Insira seu CPF">
+              <div class="entrada_dados">
+                    <span class="dados">Telefone</span>
+                    <input type="text" id="foneid" placeholder="Insira telefone">
+                <div class="entrada_dados">
+                    <span class="dados">Email:</span>
+                    <input type="text" id="emailid" placeholder="Insira seu e-mail">
+                <div class="entrada_dados">
+                    <span class="dados">Senha</span>
+                    <input type="text" placeholder="Insira sua senha">
+                <div class="entrada_dados">
+                    <span class="dados">Confimar</span>
+                    <input type="text" placeholder="Confirmar senha">
+                </div>
+            </div>
+                <br>
+                <div class="button">
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <a href="index.html" rel="prev">Home</a>
+        <a href="http://academico.ielpr.org.br/webaluno/" target="_blank" rel="external">IEL</a>
+    </footer>
+</body>
+</html>
